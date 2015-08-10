@@ -53,7 +53,7 @@ body {
 	font-family: "jaf-bernina-sans",sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	border: red solid 2px;
+	outline: 1px solid red;
 }
 
 #about {
@@ -65,18 +65,25 @@ body {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 100px;
+	text-align: center;
+}
+
+h1 {
+	top: 40%;
+	position: relative;
 }
 
 .header {
 	font-family: "jaf-bernina-sans",sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 12px;
+	font-size: 16px;
 	position: fixed;
 	top: 0;
 	right: 0;
 	left: 0;
 	background-color: grey;
+	padding: 5px;
 }
 
 ul {
@@ -95,8 +102,16 @@ li {
 }
 
 .projects {
-	display: inline-block;
 	border: gray dashed 1px;
 	height: 200px;
 	width: 200px;
+	float: left;
+	margin: 20px;
+}
+
+.mobile_app_lc {
+	background-image: url('../img/malc_icon.jpg');
+	height: 200px;
+	width: 200px;
+	background-size: cover;
 }
