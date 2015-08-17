@@ -109,9 +109,24 @@ li {
 	margin: 20px;
 }
 
-.mobile_app_lc {
-	background-image: url('../img/malc_icon.jpg');
+.project_img {
 	height: 200px;
 	width: 200px;
 	background-size: cover;
+}
+
+.mobile_app_lc {
+	background-image: url('../img/malc_icon.jpg');
+}
+
+.user_fdbck_prog {
+	background-image: url('../img/user_fdbck_prog.png');
+}
+
+.tm_bsd_prsnas {
+	background-image: url('../img/tm_bsd_prsnas.jpg');
+}
+
+.rapd_proto_tool {
+	background-image: url('../img/rapd_proto_tool.png');
 }
